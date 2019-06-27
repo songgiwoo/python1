@@ -1,10 +1,10 @@
 a = input()
 b = input()
 result = a + b
-paint(a, "+", b, "=", result)
+print(a, "+", b, "=", result)
 result = a - b
-paint(a, "-", b, "=", result)
+print(a, "-", b, "=", result)
 result = a * b
-paint(a, "*", b, "=", result)
+print(a, "*", b, "=", result)
 result = a / b
-paint(a, "/", b, "=", result)
+print(a, "/", b, "=", result)
